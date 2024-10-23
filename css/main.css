@@ -467,7 +467,7 @@ footer > p {
     
 }
 @media (max-width: 1000px){
-     .hero img {
+    .hero img {
         position: absolute;
         top: -150px;
         right: 0;
@@ -475,9 +475,9 @@ footer > p {
         width: 50px;
     }
     
-    .mid-text .map img{
+    /* .mid-text .map img{
     width: 360px;
-    }
+    } */
     header nav{
     width: 100%;    /* shirina rastuazeniya */
     padding: 5px;
@@ -491,8 +491,8 @@ footer > p {
     .hero--info p {
         font-weight: 500;
         line-height: 170%;
-        width: 390px;
-        margin: 30px 10px;
+        width: 390px;          /* ширина */
+        margin: 30px 0;        /* отступы верх, право */
     }
     .container .games .block img {
         height: 70px;
@@ -504,6 +504,22 @@ footer > p {
         font-size: 31px;
     }
     .header .logo {
+        text-align: center;
+    }
+    * {  /* то, что применяется ко всему сайту */
+        margin: 0;
+        padding: 2px;
+    }
+    .container .map img {
+        height: 100%;
+        width: 100%;
+        position: static;
+    }
+    footer .blocks p {
+        max-width: 200px;
+        margin: 15px 15px;
+    }
+    .blocks .container{
         text-align: center;
     }
 }
