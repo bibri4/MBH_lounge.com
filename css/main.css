@@ -467,7 +467,26 @@ footer > p {
     
 }
 @media (min-width: 320px){
-    .mid-text .map img{
-        margin: auto;
+     .hero img {
+        position: absolute;
+        top: -150px;
+        right: 0;
+        height: 60px;
+        width: 50px;
     }
+    
+    .mid-text .map img{
+    width: 360px;
+    }
+    header nav{
+    width: 100%;    /* shirina rastuazeniya */
+    padding: 5px;
+    }
+    .hero--info h1 {
+        font-size: 30px;
+        font-weight: 600;
+        width: 350px;
+        text-align: center;
+    }
+}
 }
