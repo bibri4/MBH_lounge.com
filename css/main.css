@@ -522,5 +522,31 @@ footer > p {
     .blocks .container{
         text-align: center;
     }
+    .container .rule .block {
+        padding: 20px 15px;
+        max-width: 800px;
+    }
+    .container .blockss img {
+        height: 300px;
+        width: 400px;
+        position: static;
+    }
+    .container .ref h3{
+        width: 300px;
+    }
+    .cont .blockks .blockk {
+        width: 30%;
+        border-radius: 10px;
+        padding: 20px 5px;
+        background: #302b26;
+    }
+    .cont .blockks .blockk img {
+        height: 80px;
+        width: 80px;
+        position: static;
+    }
+    .cont .blockks .blockk .btn {
+        position: static;
+    }
 }
 
