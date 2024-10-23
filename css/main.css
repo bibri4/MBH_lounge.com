@@ -440,7 +440,7 @@ footer .blocks {
     justify-content: space-between;    /* распоожение блоков по странице на всю стр вроде */
 }
 footer .blocks p{
-    width: 300px;
+    max-width: 300px;
     margin: 15px 0;
 }
 footer .blocks h4{
