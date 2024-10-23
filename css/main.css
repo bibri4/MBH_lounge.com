@@ -463,10 +463,10 @@ footer hr {
 footer > p {
     text-align: center;
 }
-@media (min-width: 1000px){
+@media (max-width: 10000px){
     
 }
-@media (min-width: 320px){
+@media (max-width: 1000px){
      .hero img {
         position: absolute;
         top: -150px;
