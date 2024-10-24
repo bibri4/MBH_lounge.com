@@ -497,9 +497,11 @@ footer > p {
     .container .games .block img {
         height: 70px;
         width: 50px;
-        display: flex;
-    justify-content:center;
-        
+        padding-left: 22px;
+        padding-right: 20px;
+    }
+    .container .games .block p{
+    max-width: 90px;
     }
     .trending h3 {
         font-weight: 600;
