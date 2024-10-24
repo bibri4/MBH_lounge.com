@@ -548,5 +548,8 @@ footer > p {
     .cont .blockks .blockk .btn {
         position: static;
     }
+    header nav ul {
+        width: 0 5px;
+    } 
 }
 
