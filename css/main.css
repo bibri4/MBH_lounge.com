@@ -367,7 +367,7 @@ color: #302b26;
 }
 .cont .blockks{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 }
 .cont .blockks .blockk{
 width: 25%;
