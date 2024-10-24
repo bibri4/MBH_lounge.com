@@ -59,6 +59,7 @@ header nav{
     }
     header nav ul li a {
         color: #fff;
+        Padding:0 5px;
     }
     header nav ul li:not(.active):not(.btn) a:hover {
         border-bottom: 5px solid #DC7000;
@@ -548,8 +549,5 @@ footer > p {
     .cont .blockks .blockk .btn {
         position: static;
     }
-    header nav ul {
-        width: 0 5px;
-    } 
 }
 
