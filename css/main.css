@@ -528,7 +528,7 @@ footer > p {
     }
     .container .blockss img {
         height: 300px;
-        width: 300px;
+        Max-width: 380px;
         position: static;
     }
     .container .ref h3{
