@@ -347,7 +347,7 @@ color: #302b26;
 }
 .container .rule .block {
     padding: 20px 0;
-    width: 800px;
+    Max-width: 800px;
 } 
 .container .rule .block ul{
     font-weight: 500;
@@ -418,7 +418,7 @@ transform: scale(1.1);
 /* stocks */
 .ref .list {
     padding: 25px 0;
-    width: 600px;
+    Max-width: 600px;
 }
 .ref .list p{
     font-size: 34px;
