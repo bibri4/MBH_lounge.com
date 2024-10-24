@@ -10,6 +10,9 @@ body {
     font-weight: 400;
     color: #fff;
     font-size: 16px;
+    background: linear-gradient(180deg, rgba(0,0,4,1) 1%, rgba(107,107,116,1) 100%);
+    width: 100%;
+
 }
 
 a{
@@ -20,10 +23,7 @@ a{
     max-width: 100%;
 } */
 
-.wrapper{
-    background: linear-gradient(180deg, rgba(0,0,4,1) 1%, rgba(107,107,116,1) 100%);
-    width: 100%;
-}
+
 
 .container{    /* pomoyemu shirina stranitsy */
     max-width: 1400px;
@@ -506,7 +506,7 @@ footer > p {
     .header .logo {
         text-align: center;
     }
-    * {  /* то, что применяется ко всему сайту */
+   body {  /* то, что применяется ко всему сайту */
         margin: 0;
         padding: 2px;
     }
