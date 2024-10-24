@@ -491,7 +491,7 @@ footer > p {
     .hero--info p {
         font-weight: 500;
         line-height: 170%;
-        width: 390px;          /* ширина */
+        max-width: 390px;          /* ширина */
         margin: 30px 0;        /* отступы верх, право */
     }
     .container .games .block img {
@@ -528,7 +528,7 @@ footer > p {
     }
     .container .blockss img {
         height: 300px;
-        width: 400px;
+        width: 300px;
         position: static;
     }
     .container .ref h3{
