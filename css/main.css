@@ -558,4 +558,20 @@ footer > p {
         max-width: 350px;
     }
 }
+@media (max-width: 450px){
+    .cont .blockks{
+        flex-direction: column;
 
+    }
+    .cont .blockks .blockk {
+        width: 90%;
+        margin: 15px 10px;
+    }
+    .cont .blockks .blockk .btn {
+        margin: 12px 15px;
+        float: right;
+    }
+    .cont .blockks .blockk h3 {
+        margin: 0 0;
+    }
+}
