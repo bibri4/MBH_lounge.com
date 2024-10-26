@@ -74,7 +74,7 @@ header nav{
             border-radius: 10px;
             position: relative;
             top: 10px;
-            left: -15px;
+            left: 1px;
         }
 
     header nav ul li.btn a, .email .block button{
