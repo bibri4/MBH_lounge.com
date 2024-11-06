@@ -574,4 +574,10 @@ footer > p {
     .cont .blockks .blockk h3 {
         margin: 0 0;
     }
+    .cont .blockks .blockk h3{
+    padding-left: 10px;
+    }
+    .cont .blockks .blockk p{
+    padding-left: 10px;
+    }
 }
