@@ -462,7 +462,7 @@ footer > p {
 }
 
 
-.weapon-block {
+weapon-block {
     max-width: 400px; /* Ширина блока */
     margin: 20px auto; /* Центрирование и отступы */
     padding: 20px; /* Внутренние отступы */
@@ -475,13 +475,13 @@ footer > p {
 }
 
 /* Стили для заголовка */
-.weapon-block h2 {
+weapon-block h2 {
     margin-bottom: 15px;
     color: #333;
 }
 
 /* Стили для кнопки */
-.weapon-button {
+weapon-button {
     background-color: #4CAF50; /* Зеленый фон */
     color: white; /* Белый текст */
     padding: 10px 20px; /* Отступы внутри кнопки */
@@ -491,12 +491,12 @@ footer > p {
     font-size: 16px; /* Размер шрифта */
     transition: background-color 0.3s; /* Плавный переход цвета */
 }
-.weapon-button:hover {
+weapon-button:hover {
     background-color: #45a049; /* Темнее при наведении */
 }
 
 /* Стили для места вывода результата */
-.weapon-display {
+weapon-display {
     margin-top: 20px; /* Отступ сверху */
     font-size: 18px; /* Размер шрифта */
     color: #333; /* Цвет текста */
@@ -626,3 +626,4 @@ footer > p {
     }
 
 }
+
