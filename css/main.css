@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +10,6 @@ body {
     color: #fff;
     font-size: 16px;
     background: linear-gradient(180deg, rgba(0,0,4,1) 1%, rgba(107,107,116,1) 100%);
-    width: 100%;
-
 }
 
 a{
@@ -22,8 +19,6 @@ a{
 /* img{
     max-width: 100%;
 } */
-
-
 
 .container{    /* pomoyemu shirina stranitsy */
     max-width: 1400px;
@@ -36,7 +31,7 @@ header {
 
 header .logo,
 footer .blocks .logo{
-    text-transform: uppercase;
+    text-transform: uppercase; /* всё буковы в верхнем регистре(большие) */
     font-size: 29px;
     font-weight: 800; 
 }
@@ -56,6 +51,7 @@ header nav{
 
     header nav ul li {
         display: inline-block;
+        
     }
     header nav ul li a {
         color: #fff;
@@ -74,7 +70,7 @@ header nav{
             border-radius: 10px;
             position: relative;
             top: 10px;
-            left: 1px;
+            left: -15px;
         }
 
     header nav ul li.btn a, .email .block button{
@@ -91,6 +87,7 @@ header nav ul li.btn a:hover,
 .container .games .block img{
     height: 200px;
     width: 200px;
+    
 }
 .hero{
     padding-bottom: 100px;
@@ -347,7 +344,7 @@ color: #302b26;
 }
 .container .rule .block {
     padding: 20px 0;
-    Max-width: 800px;
+    max-width: 800px;
 } 
 .container .rule .block ul{
     font-weight: 500;
@@ -418,7 +415,7 @@ transform: scale(1.1);
 /* stocks */
 .ref .list {
     padding: 25px 0;
-    Max-width: 600px;
+    width: 600px;
 }
 .ref .list p{
     font-size: 34px;
@@ -463,11 +460,64 @@ footer hr {
 footer > p {
     text-align: center;
 }
+
+
+        .weapon-block {
+            max-width: 400px; /* Ширина блока */
+            margin: 20px auto; /* Центрирование и отступы */
+            padding: 20px; /* Внутренние отступы */
+            border: 2px solid #333; /* Рамка */
+            border-radius: 10px; /* Закругленные углы */
+            background-color: #f9f9f9; /* Фон блока */
+            text-align: center; /* Выравнивание текста по центру */
+            font-family: Arial, sans-serif; /* Шрифт */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объёма */
+        }
+        
+        /* Стили для заголовка */
+        .weapon-block h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        /* Стили для кнопки */
+        .weapon-button {
+            background-color: #4CAF50; /* Зеленый фон */
+            color: white; /* Белый текст */
+            padding: 10px 20px; /* Отступы внутри кнопки */
+            border: none; /* Без рамки */
+            border-radius: 5px; /* Закругленные углы */
+            cursor: pointer; /* Курсор при наведении */
+            font-size: 16px; /* Размер шрифта */
+            transition: background-color 0.3s; /* Плавный переход цвета */
+        }
+        .weapon-button:hover {
+            background-color: #45a049; /* Темнее при наведении */
+        }
+        
+        /* Стили для места вывода результата */
+        .weapon-display {
+            margin-top: 20px; /* Отступ сверху */
+            font-size: 18px; /* Размер шрифта */
+            color: #333; /* Цвет текста */
+            min-height: 30px; /* Минимальная высота, чтобы место было видно */
+        }
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 10000px){
     
 }
 @media (max-width: 1000px){
-     .hero img {
+    .hero img {
         position: absolute;
         top: -150px;
         right: 0;
@@ -541,7 +591,7 @@ footer > p {
     .cont .blockks .blockk {
         width: 30%;
         border-radius: 10px;
-        padding: 20px 2px;
+        padding: 20px 5px;
         background: #302b26;
     }
     .cont .blockks .blockk img {
@@ -573,11 +623,5 @@ footer > p {
     }
     .cont .blockks .blockk h3 {
         margin: 0 0;
-    }
-    .cont .blockks .blockk h3{
-    padding-left: 10px;
-    }
-    .cont .blockks .blockk p{
-    padding-left: 10px;
     }
 }
