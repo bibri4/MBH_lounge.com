@@ -462,46 +462,46 @@ footer > p {
 }
 
 
-        .weapon-block {
-            max-width: 400px; /* Ширина блока */
-            margin: 20px auto; /* Центрирование и отступы */
-            padding: 20px; /* Внутренние отступы */
-            border: 2px solid #333; /* Рамка */
-            border-radius: 10px; /* Закругленные углы */
-            background-color: #f9f9f9; /* Фон блока */
-            text-align: center; /* Выравнивание текста по центру */
-            font-family: Arial, sans-serif; /* Шрифт */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объёма */
-        }
-        
-        /* Стили для заголовка */
-        .weapon-block h2 {
-            margin-bottom: 15px;
-            color: #333;
-        }
-        
-        /* Стили для кнопки */
-        .weapon-button {
-            background-color: #4CAF50; /* Зеленый фон */
-            color: white; /* Белый текст */
-            padding: 10px 20px; /* Отступы внутри кнопки */
-            border: none; /* Без рамки */
-            border-radius: 5px; /* Закругленные углы */
-            cursor: pointer; /* Курсор при наведении */
-            font-size: 16px; /* Размер шрифта */
-            transition: background-color 0.3s; /* Плавный переход цвета */
-        }
-        .weapon-button:hover {
-            background-color: #45a049; /* Темнее при наведении */
-        }
-        
-        /* Стили для места вывода результата */
-        .weapon-display {
-            margin-top: 20px; /* Отступ сверху */
-            font-size: 18px; /* Размер шрифта */
-            color: #333; /* Цвет текста */
-            min-height: 30px; /* Минимальная высота, чтобы место было видно */
-        }
+.weapon-block {
+    max-width: 400px; /* Ширина блока */
+    margin: 20px auto; /* Центрирование и отступы */
+    padding: 20px; /* Внутренние отступы */
+    border: 2px solid #333; /* Рамка */
+    border-radius: 10px; /* Закругленные углы */
+    background-color: #f9f9f9; /* Фон блока */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Шрифт */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объёма */
+}
+
+/* Стили для заголовка */
+.weapon-block h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Стили для кнопки */
+.weapon-button {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+.weapon-button:hover {
+    background-color: #45a049; /* Темнее при наведении */
+}
+
+/* Стили для места вывода результата */
+.weapon-display {
+    margin-top: 20px; /* Отступ сверху */
+    font-size: 18px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+    min-height: 30px; /* Минимальная высота, чтобы место было видно */
+}
 
 
 
@@ -624,4 +624,5 @@ footer > p {
     .cont .blockks .blockk h3 {
         margin: 0 0;
     }
+
 }
