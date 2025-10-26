@@ -96,7 +96,7 @@ header nav ul li.btn a:hover,
 }
 
 
-.weapon-block {
+.weaponblock{
     max-width: 400px; /* Ширина блока */
     margin: 20px auto; /* Центрирование и отступы */
     padding: 20px; /* Внутренние отступы */
@@ -109,7 +109,7 @@ header nav ul li.btn a:hover,
 }
 
 /* Стили для заголовка */
-.weapon-block h2 {
+.weaponblock h2{
     margin-bottom: 15px;
     color: #333;
 }
@@ -623,5 +623,6 @@ footer > p {
     }
 
 }
+
 
 
