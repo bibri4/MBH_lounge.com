@@ -115,7 +115,7 @@ header nav ul li.btn a:hover,
 }
 
 /* Стили для кнопки */
-.weapon .button {
+.weaponbutton {
     background-color: #4CAF50; /* Зеленый фон */
     color: white; /* Белый текст */
     padding: 10px 20px; /* Отступы внутри кнопки */
@@ -623,6 +623,7 @@ footer > p {
     }
 
 }
+
 
 
 
